@@ -1,0 +1,17 @@
+{"name": "all US vs only urban",
+  "geo_locations": [
+      {"name": "countries", "values": ["US"]},
+      {"name": "custom_locations", "values": [{"custom_type": "multi_city", "country": "US"}]}
+  ],
+  "genders": [0],
+  "ages_ranges": [
+      {"min": 18}
+  ],
+  "interests": [
+    {"or": [6002930409372], "name": "7-Eleven"},
+    {"or": [6003106323429], "name": "Kroger"},
+    {"or": [6003454505744], "name": "Target"},
+    {"or": [6003445201083], "name": "Walmart"},
+    {"or": [6004167640306], "name": "Albertsons"}
+]
+}
